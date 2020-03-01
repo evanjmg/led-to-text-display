@@ -1,12 +1,8 @@
-## Deprecated
 
-This Python code is being phased out and replaced with https://github.com/rpi-ws281x/rpi-ws281x-python
+## LED to Text Display
+Follow this tutorial first before cloning - https://tutorials-raspberrypi.com/connect-control-raspberry-pi-ws2812-rgb-led-strips/ after you get basic LEDs working replace the python folder with this cloned repo. Then follow instructions below. Modify ./examples/strandtest.py to change the behaviour of LUAS Times or implement your own API. 
 
-If you're just looking to install the Python library, you can: `sudo pip install rpi_ws281x` or `sudo pip3 install rpi_ws281x` depending on your Python version of choice or find releases here: https://github.com/rpi-ws281x/rpi-ws281x-python/releases
-
-For issues and bugs with (or contributions to) the Python library, please see: https://github.com/rpi-ws281x/rpi-ws281x-python/issues
-
-----
+Note this uses python2 hence why the dependencies are committed to source control. 
 
 ## Build
 
